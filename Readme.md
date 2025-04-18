@@ -59,3 +59,7 @@ Used with external tools or for sharing your API design with others.
 - **Swagger UI**: [http://localhost:8000/swagger/](http://localhost:8000/swagger/)  
 - **ReDoc UI**: [http://localhost:8000/redoc/](http://localhost:8000/redoc/)  
 - **Raw schema (JSON)**: [http://localhost:8000/swagger.json](http://localhost:8000/swagger.json)
+
+
+
+![image](https://github.com/user-attachments/assets/39c18a2b-6b04-4773-8948-edf299ad9bf0)
