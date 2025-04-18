@@ -23,16 +23,8 @@ urlpatterns = [
     path('variants/<int:id>/update/',views.update_variant,name='variant-update'),
     path('variants/<int:id>/delete/',views.delete_variant,name='variant-delete'),
 
-    path('vehicle-variants/',views.get_vehicle_variant_list,name='vehicle_variant_list'),
-    path('vehicle-variants/create/',views.create_vehicle_variant,name='vehicle_variant-create'),
-    path('vehicle-variants/<int:id>/update/',views.update_vehicle_variant,name='vehicle_variant-update'),
-    path('vehicle-variants/<int:id>/delete/',views.delete_vehicle_variant,name='vehicle_variant-delete'), 
-
     path('vehicle-prices/', views.get_vehicle_price_list, name='vehicle-price-list'),
-    path('vehicle-prices/<int:id>/', views.get_vehicle_price_by_id, name='vehicle-price-detail'),
     path('vehicle-prices/create/', views.create_vehicle_price, name='vehicle-price-create'),
     path('vehicle-prices/<int:id>/update/', views.update_vehicle_price, name='vehicle-price-update'),
     path('vehicle-prices/<int:id>/delete/', views.delete_vehicle_price, name='vehicle-price-delete'),
-    path('vehicles/<int:vehicle_id>/prices/', views.get_prices_for_vehicle, name='vehicle-prices'),  
-
 ]
