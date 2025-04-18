@@ -1,3 +1,20 @@
+# Vehicle Showroom & Content Management System (Django Backend)
+
+This is a Django-based backend for a Vehicle Showroom & Content Management System.  
+It supports user authentication, blog & showroom content handling, and full vehicle lifecycle management — including categories, variants, and pricing. Designed with modular APIs and OpenAPI documentation (Swagger/ReDoc) for seamless frontend integration.
+
+## Use Case
+
+- A platform where **admins** can manage users and post blogs/showroom content.
+- **Users (or buyers)** can:
+  - Browse vehicles by category
+  - View different variants
+  - See detailed pricing
+
+This system can also serve as the backend for a **vehicle dealership web app or mobile app**.
+
+### modules
+
 AUTH
 -------
 ✅ Login & Authentication (Token Refresh, Verify, Login)
